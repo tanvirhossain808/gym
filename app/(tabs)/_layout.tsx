@@ -10,6 +10,7 @@ import { useColorScheme } from "@/hooks/useColorScheme"
 import {
     AntDesign,
     FontAwesome,
+    FontAwesome6,
     MaterialCommunityIcons,
 } from "@expo/vector-icons"
 
@@ -81,8 +82,13 @@ export default function TabLayout() {
                             bg={focused ? "green" : "white"}
                             focused={focused}
                             icon={
-                                <MaterialCommunityIcons
-                                    name="arm-flex-outline"
+                                // <MaterialCommunityIcons
+                                //     name="arm-flex-outline"
+                                //     size={30}
+                                //     color={color}
+                                // />
+                                <FontAwesome6
+                                    name="dumbbell"
                                     size={30}
                                     color={color}
                                 />
